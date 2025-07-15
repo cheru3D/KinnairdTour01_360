@@ -147,7 +147,7 @@ var APP_DATA = {
           "yaw": 2.6562325271632394,
           "pitch": 0.4960524076104811,
           "rotation": 0,
-          "target": "4-5-kitchen"
+          "target": "4-5-dining"
         },
         {
           "yaw": -0.501491208472082,
@@ -159,8 +159,8 @@ var APP_DATA = {
       "infoHotspots": []
     },
     {
-      "id": "4-5-kitchen",
-      "name": "5-KITCHEN",
+      "id": "4-5-dining",
+      "name": "5-DINING",
       "levels": [
         {
           "tileSize": 256,
@@ -186,7 +186,26 @@ var APP_DATA = {
         "yaw": 0,
         "fov": 1.5707963267948966
       },
-      "linkHotspots": [],
+      "linkHotspots": [
+        {
+          "yaw": -0.24553418387996118,
+          "pitch": 0.5292200265458327,
+          "rotation": 0,
+          "target": "3-4-great-room"
+        },
+        {
+          "yaw": 0.9089649117497203,
+          "pitch": 0.5072416681938989,
+          "rotation": 0,
+          "target": "5-6-kitchen"
+        },
+        {
+          "yaw": -2.412019111835974,
+          "pitch": 0.6519480200332524,
+          "rotation": 0,
+          "target": "1-2-foyer"
+        }
+      ],
       "infoHotspots": []
     },
     {
@@ -218,12 +237,6 @@ var APP_DATA = {
         "fov": 1.5707963267948966
       },
       "linkHotspots": [
-        {
-          "yaw": -2.8259593505019183,
-          "pitch": 0.6935550452253274,
-          "rotation": 0,
-          "target": "4-5-kitchen"
-        },
         {
           "yaw": -0.014548979319810584,
           "pitch": 0.656985707615366,
