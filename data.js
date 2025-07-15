@@ -24,9 +24,9 @@ var APP_DATA = {
       ],
       "faceSize": 2048,
       "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
+        "yaw": 1.5600558390903183,
+        "pitch": 0.03365417674153903,
+        "fov": 1.3555154520896788
       },
       "linkHotspots": [
         {
@@ -148,6 +148,12 @@ var APP_DATA = {
           "pitch": 0.4960524076104811,
           "rotation": 0,
           "target": "4-5-kitchen"
+        },
+        {
+          "yaw": -0.501491208472082,
+          "pitch": 0.6305828293965998,
+          "rotation": 0,
+          "target": "22-22-great-room"
         }
       ],
       "infoHotspots": []
@@ -311,6 +317,12 @@ var APP_DATA = {
           "pitch": 0.5879830903250767,
           "rotation": 0,
           "target": "6-7-kitchen"
+        },
+        {
+          "yaw": 1.396013450170706,
+          "pitch": 0.5699967117409237,
+          "rotation": 0,
+          "target": "16-17-mud-room"
         }
       ],
       "infoHotspots": []
@@ -343,8 +355,34 @@ var APP_DATA = {
         "yaw": 0,
         "fov": 1.5707963267948966
       },
-      "linkHotspots": [],
-      "infoHotspots": []
+      "linkHotspots": [
+        {
+          "yaw": 0.3902398005794403,
+          "pitch": 0.5886488538768617,
+          "rotation": 0,
+          "target": "9-10-master-bedroom"
+        },
+        {
+          "yaw": 1.5323548750268028,
+          "pitch": -0.2845161564888734,
+          "rotation": 0,
+          "target": "31-31-game-room"
+        },
+        {
+          "yaw": 3.090125188350245,
+          "pitch": 0.5948765437874926,
+          "rotation": 0,
+          "target": "7-8-mud-room"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": 1.607675923214666,
+          "pitch": -0.24073992596629523,
+          "title": "To Game Room",
+          "text": "<br>"
+        }
+      ]
     },
     {
       "id": "9-10-master-bedroom",
@@ -1373,9 +1411,40 @@ var APP_DATA = {
         }
       ],
       "infoHotspots": []
+    },
+    {
+      "id": "31-31-game-room",
+      "name": "31-GAME ROOM",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2048,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [],
+      "infoHotspots": []
     }
   ],
-  "name": "Project Title",
+  "name": "Kinnaird01",
   "settings": {
     "mouseViewMode": "drag",
     "autorotateEnabled": false,
